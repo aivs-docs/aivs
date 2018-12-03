@@ -1,0 +1,911 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>TemplateRuntime · 小爱同学AIVS2.0文档</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="XiaoMi">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../Version.html" />
+    
+    
+    <link rel="prev" href="4.AudioPlayer_Interface.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../Structure_an_HTTP2_Request.html">
+            
+                <a href="../Structure_an_HTTP2_Request.html">
+            
+                    
+                    传输协议
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../Endpoints.html">
+            
+                <a href="../Endpoints.html">
+            
+                    
+                    端点
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../Interfaces.html">
+            
+                <a href="../Interfaces.html">
+            
+                    
+                    接口列表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    接口文档
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="1.SpeechRecognizer_Interface.html">
+            
+                <a href="1.SpeechRecognizer_Interface.html">
+            
+                    
+                    SpeechRecognizer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="2.SpeechSynthesizer_Interface.html">
+            
+                <a href="2.SpeechSynthesizer_Interface.html">
+            
+                    
+                    SpeechSynthesizer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="3.TextRecognizer_Interface.html">
+            
+                <a href="3.TextRecognizer_Interface.html">
+            
+                    
+                    TextRecognizer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="4.AudioPlayer_Interface.html">
+            
+                <a href="4.AudioPlayer_Interface.html">
+            
+                    
+                    AudioPlayer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.5.5" data-path="5.TemplateRuntime_Interface.html">
+            
+                <a href="5.TemplateRuntime_Interface.html">
+            
+                    
+                    TemplateRuntime
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../Version.html">
+            
+                <a href="../Version.html">
+            
+                    
+                    版本
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" >
+            
+                <span>
+            
+                    
+                    样例
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../demo/Play_News.html">
+            
+                <a href="../demo/Play_News.html">
+            
+                    
+                    交互1：播放一组新闻
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../demo/Control_MIOT.html">
+            
+                <a href="../demo/Control_MIOT.html">
+            
+                    
+                    交互2：控制智能家居
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../demo/Weather_Predict.html">
+            
+                <a href="../demo/Weather_Predict.html">
+            
+                    
+                    交互3：查询天气
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >TemplateRuntime</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="templateruntime&#x63A5;&#x53E3;">TemplateRuntime&#x63A5;&#x53E3;</h1>
+<p>&#x672C;&#x63A5;&#x53E3;&#x57FA;&#x4E8E;Alexa Voice Service v20160207&#x8FDB;&#x884C;&#x5B9A;&#x5236;&#xFF0C;
+&#x517C;&#x5BB9;AVS <a href="https://developer.amazon.com/zh/docs/alexa-voice-service/templateruntime.html" target="_blank">TemplateRuntime Interface</a></p>
+<h1 id="rendertemplate-directive">RenderTemplate Directive</h1>
+<h2 id="&#x6A21;&#x7248;&#x7C7B;&#x578B;-type">&#x6A21;&#x7248;&#x7C7B;&#x578B; Type</h2>
+<h2 id="bodytemplate1">BodyTemplate1</h2>
+<p><strong>&#x6D88;&#x606F;&#x4F53; Sample Message</strong></p>
+<pre><code class="lang-json">{
+  <span class="hljs-string">&quot;directive&quot;</span> : {
+    <span class="hljs-string">&quot;header&quot;</span> : {
+      <span class="hljs-string">&quot;namespace&quot;</span> : <span class="hljs-string">&quot;TemplateRuntime&quot;</span>,
+      <span class="hljs-string">&quot;name&quot;</span> : <span class="hljs-string">&quot;RenderTemplate&quot;</span>,
+      <span class="hljs-string">&quot;messageId&quot;</span> : <span class="hljs-string">&quot;a8f54567-e420-47d8-8b35-20ab9fbcfab1&quot;</span>,
+      <span class="hljs-string">&quot;dialogRequestId&quot;</span> : <span class="hljs-string">&quot;1bea9874-80d8-4372-997b-409f76fc8f70&quot;</span>
+    },
+    <span class="hljs-string">&quot;payload&quot;</span> : {
+      <span class="hljs-string">&quot;token&quot;</span> : <span class="hljs-string">&quot;0f889fe1-292d-48aa-b435-a0eea789da19&quot;</span>,
+      <span class="hljs-string">&quot;type&quot;</span> : <span class="hljs-string">&quot;BodyTemplate1&quot;</span>,
+      <span class="hljs-string">&quot;title&quot;</span> : {
+        <span class="hljs-string">&quot;mainTitle&quot;</span> : <span class="hljs-string">&quot;&#x6807;&#x9898;&quot;</span>,
+        <span class="hljs-string">&quot;subTitle&quot;</span> : <span class="hljs-string">&quot;&#x526F;&#x6807;&#x9898;&quot;</span>
+      },
+      <span class="hljs-string">&quot;textField&quot;</span> : <span class="hljs-string">&quot;&#x6B63;&#x6587;&quot;</span>
+    }
+  }
+}
+</code></pre>
+<p><strong>&#x53C2;&#x6570;&#x63CF;&#x8FF0;</strong></p>
+<table>
+<thead>
+<tr>
+<th>&#x53C2;&#x6570;&#x540D;</th>
+<th>&#x8BF4;&#x660E;</th>
+<th>&#x6570;&#x636E;&#x7C7B;&#x578B;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>messageId</td>
+<td>&#x7528;&#x4E8E;&#x8868;&#x793A;&#x7279;&#x5B9A;&#x6D88;&#x606F;&#x7684;&#x552F;&#x4E00;ID</td>
+<td>string</td>
+</tr>
+<tr>
+<td>dialogRequestId</td>
+<td>&#x4E0E;&#x4E0B;&#x53D1;&#x6307;&#x4EE4;&#x76F8;&#x5173;&#x8054;&#x7684;&#x552F;&#x4E00;ID</td>
+<td>string</td>
+</tr>
+<tr>
+<td>token</td>
+<td>&#x8868;&#x793A;&#x5F53;&#x524D;&#x6A21;&#x7248;&#x7684;&#x6807;&#x8BC6;</td>
+<td>string</td>
+</tr>
+<tr>
+<td>type</td>
+<td>&#x6A21;&#x7248;&#x7C7B;&#x578B;&#xFF0C;&#x5F53;&#x524D;&#x4E3E;&#x4F8B;&#x4E2D;&#x4E3A;BodyTemplate1</td>
+<td>string</td>
+</tr>
+<tr>
+<td>title</td>
+<td>&#x5305;&#x542B;&#x5BF9;&#x6A21;&#x7248;&#x8FDB;&#x884C;&#x63CF;&#x8FF0;&#x7684;&#x591A;&#x9879;Key/Value&#x503C;</td>
+<td>object</td>
+</tr>
+<tr>
+<td>title.mainTitle</td>
+<td>&#x6807;&#x9898;</td>
+<td>string</td>
+</tr>
+<tr>
+<td>title.subTitle</td>
+<td>&#x526F;&#x6807;&#x9898;</td>
+<td>string</td>
+</tr>
+<tr>
+<td>textField</td>
+<td>&#x6B63;&#x6587;</td>
+<td>string</td>
+</tr>
+</tbody>
+</table>
+<h2 id="bodytemplate2">BodyTemplate2</h2>
+<p><strong>&#x6D88;&#x606F;&#x4F53; Sample Message</strong></p>
+<pre><code class="lang-json">{
+  <span class="hljs-string">&quot;directive&quot;</span> : {
+    <span class="hljs-string">&quot;header&quot;</span> : {
+      <span class="hljs-string">&quot;namespace&quot;</span> : <span class="hljs-string">&quot;TemplateRuntime&quot;</span>,
+      <span class="hljs-string">&quot;name&quot;</span> : <span class="hljs-string">&quot;RenderTemplate&quot;</span>,
+      <span class="hljs-string">&quot;messageId&quot;</span> : <span class="hljs-string">&quot;a8f54567-e420-47d8-8b35-20ab9fbcfab1&quot;</span>,
+      <span class="hljs-string">&quot;dialogRequestId&quot;</span> : <span class="hljs-string">&quot;1bea9874-80d8-4372-997b-409f76fc8f70&quot;</span>
+    },
+    <span class="hljs-string">&quot;payload&quot;</span> : {
+      <span class="hljs-string">&quot;token&quot;</span> : <span class="hljs-string">&quot;0f889fe1-292d-48aa-b435-a0eea789da19&quot;</span>,
+      <span class="hljs-string">&quot;type&quot;</span> : <span class="hljs-string">&quot;BodyTemplate2&quot;</span>,
+      <span class="hljs-string">&quot;title&quot;</span> : {
+        <span class="hljs-string">&quot;mainTitle&quot;</span> : <span class="hljs-string">&quot;&#x6807;&#x9898;&quot;</span>,
+        <span class="hljs-string">&quot;subTitle&quot;</span> : <span class="hljs-string">&quot;&#x526F;&#x6807;&#x9898;&quot;</span>
+      },
+      <span class="hljs-string">&quot;textField&quot;</span> : <span class="hljs-string">&quot;&#x6B63;&#x6587;&quot;</span>,
+      <span class="hljs-string">&quot;image&quot;</span> : {
+        <span class="hljs-string">&quot;sources&quot;</span> : [ {
+          <span class="hljs-string">&quot;url&quot;</span> : <span class="hljs-string">&quot;http://image-url&quot;</span>,
+          <span class="hljs-string">&quot;widthPixels&quot;</span> : <span class="hljs-number">300</span>,
+          <span class="hljs-string">&quot;heightPixels&quot;</span> : <span class="hljs-number">300</span>
+        } ]
+      }
+    }
+  }
+}
+</code></pre>
+<p><strong>&#x53C2;&#x6570;&#x63CF;&#x8FF0;</strong></p>
+<table>
+<thead>
+<tr>
+<th>&#x53C2;&#x6570;&#x540D;</th>
+<th>&#x8BF4;&#x660E;</th>
+<th>&#x6570;&#x636E;&#x7C7B;&#x578B;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>messageId</td>
+<td>&#x7528;&#x4E8E;&#x8868;&#x793A;&#x7279;&#x5B9A;&#x6D88;&#x606F;&#x7684;&#x552F;&#x4E00;ID</td>
+<td>string</td>
+</tr>
+<tr>
+<td>dialogRequestId</td>
+<td>&#x4E0E;&#x4E0B;&#x53D1;&#x6307;&#x4EE4;&#x76F8;&#x5173;&#x8054;&#x7684;&#x552F;&#x4E00;ID</td>
+<td>string</td>
+</tr>
+<tr>
+<td>token</td>
+<td>&#x8868;&#x793A;&#x5F53;&#x524D;&#x6A21;&#x7248;&#x7684;&#x6807;&#x8BC6;</td>
+<td>string</td>
+</tr>
+<tr>
+<td>type</td>
+<td>&#x6A21;&#x7248;&#x7C7B;&#x578B;&#xFF0C;&#x5F53;&#x524D;&#x4E3E;&#x4F8B;&#x4E2D;&#x4E3A;BodyTemplate2</td>
+<td>string</td>
+</tr>
+<tr>
+<td>title</td>
+<td>&#x5305;&#x542B;&#x5BF9;&#x6A21;&#x7248;&#x8FDB;&#x884C;&#x63CF;&#x8FF0;&#x7684;&#x591A;&#x9879;Key/Value&#x503C;</td>
+<td>object</td>
+</tr>
+<tr>
+<td>title.mainTitle</td>
+<td>&#x6807;&#x9898;</td>
+<td>string</td>
+</tr>
+<tr>
+<td>title.subTitle</td>
+<td>&#x526F;&#x6807;&#x9898;</td>
+<td>string</td>
+</tr>
+<tr>
+<td>textField</td>
+<td>&#x6B63;&#x6587;</td>
+<td>string</td>
+</tr>
+<tr>
+<td>image</td>
+<td>&#x5305;&#x542B;&#x5BF9;&#x56FE;&#x7247;&#x8FDB;&#x884C;&#x63CF;&#x8FF0;&#x7684;&#x591A;&#x9879;Key/Value&#x503C;</td>
+<td><a href="#Image%20Structure">image structure</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="weathertemplate">WeatherTemplate</h2>
+<p><strong>&#x6D88;&#x606F;&#x4F53; Sample Message</strong></p>
+<pre><code class="lang-json">{
+  <span class="hljs-string">&quot;directive&quot;</span> : {
+    <span class="hljs-string">&quot;header&quot;</span> : {
+      <span class="hljs-string">&quot;namespace&quot;</span> : <span class="hljs-string">&quot;TemplateRuntime&quot;</span>,
+      <span class="hljs-string">&quot;name&quot;</span> : <span class="hljs-string">&quot;RenderTemplate&quot;</span>,
+      <span class="hljs-string">&quot;messageId&quot;</span> : <span class="hljs-string">&quot;47ca2d08-5cca-4513-916f-3788b09d724b&quot;</span>,
+      <span class="hljs-string">&quot;dialogRequestId&quot;</span> : <span class="hljs-string">&quot;2c871805-a46c-43c8-b8ea-4a108d18303e&quot;</span>
+    },
+    <span class="hljs-string">&quot;payload&quot;</span> : {
+      <span class="hljs-string">&quot;token&quot;</span> : <span class="hljs-string">&quot;c7804109-ad9d-48fe-a1bf-5d1581ac249e&quot;</span>,
+      <span class="hljs-string">&quot;type&quot;</span> : <span class="hljs-string">&quot;WeatherTemplate&quot;</span>,
+      <span class="hljs-string">&quot;title&quot;</span> : {
+        <span class="hljs-string">&quot;mainTitle&quot;</span> : <span class="hljs-string">&quot;&#x5929;&#x6C14;&quot;</span>,
+        <span class="hljs-string">&quot;subTitle&quot;</span> : <span class="hljs-string">&quot;Nov21 Wed&quot;</span>
+      },
+      <span class="hljs-string">&quot;currentWeather&quot;</span> : <span class="hljs-string">&quot;7&quot;</span>,
+      <span class="hljs-string">&quot;description&quot;</span> : <span class="hljs-string">&quot;&#x5929;&#x6C14;&#x63CF;&#x8FF0;&quot;</span>,
+      <span class="hljs-string">&quot;highTemperature&quot;</span> : {
+        <span class="hljs-string">&quot;value&quot;</span> : <span class="hljs-string">&quot;9&quot;</span>
+      },
+      <span class="hljs-string">&quot;lowTemperature&quot;</span> : {
+        <span class="hljs-string">&quot;value&quot;</span> : <span class="hljs-string">&quot;-3&quot;</span>
+      },
+      <span class="hljs-string">&quot;weatherForecast&quot;</span> : [ {
+        <span class="hljs-string">&quot;date&quot;</span> : <span class="hljs-string">&quot;Nov 22&quot;</span>,
+        <span class="hljs-string">&quot;highTemperature&quot;</span> : <span class="hljs-string">&quot;8&quot;</span>,
+        <span class="hljs-string">&quot;lowTemperature&quot;</span> : <span class="hljs-string">&quot;-3&quot;</span>
+      }, {
+        <span class="hljs-string">&quot;date&quot;</span> : <span class="hljs-string">&quot;Nov 23&quot;</span>,
+        <span class="hljs-string">&quot;highTemperature&quot;</span> : <span class="hljs-string">&quot;5&quot;</span>,
+        <span class="hljs-string">&quot;lowTemperature&quot;</span> : <span class="hljs-string">&quot;-5&quot;</span>
+      } ]
+    }
+  }
+}
+</code></pre>
+<p><strong>&#x53C2;&#x6570;&#x63CF;&#x8FF0;</strong></p>
+<table>
+<thead>
+<tr>
+<th>&#x53C2;&#x6570;&#x540D;</th>
+<th>&#x8BF4;&#x660E;</th>
+<th>&#x6570;&#x636E;&#x7C7B;&#x578B;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>messageId</td>
+<td>&#x7528;&#x4E8E;&#x8868;&#x793A;&#x7279;&#x5B9A;&#x6D88;&#x606F;&#x7684;&#x552F;&#x4E00;ID</td>
+<td>string</td>
+</tr>
+<tr>
+<td>dialogRequestId</td>
+<td>&#x4E0E;&#x4E0B;&#x53D1;&#x6307;&#x4EE4;&#x76F8;&#x5173;&#x8054;&#x7684;&#x552F;&#x4E00;ID</td>
+<td>string</td>
+</tr>
+<tr>
+<td>token</td>
+<td>&#x8868;&#x793A;&#x5F53;&#x524D;&#x6A21;&#x7248;&#x7684;&#x6807;&#x8BC6;</td>
+<td>string</td>
+</tr>
+<tr>
+<td>type</td>
+<td>&#x6A21;&#x7248;&#x7C7B;&#x578B;&#xFF0C;&#x5F53;&#x524D;&#x4E3E;&#x4F8B;&#x4E2D;&#x4E3A;WeatherTemplate</td>
+<td>string</td>
+</tr>
+<tr>
+<td>title</td>
+<td>&#x5305;&#x542B;&#x5BF9;&#x6A21;&#x7248;&#x8FDB;&#x884C;&#x63CF;&#x8FF0;&#x7684;&#x591A;&#x9879;Key/Value&#x503C;</td>
+<td>object</td>
+</tr>
+<tr>
+<td>title.mainTitle</td>
+<td>&#x6807;&#x9898;</td>
+<td>string</td>
+</tr>
+<tr>
+<td>title.subTitle</td>
+<td>&#x526F;&#x6807;&#x9898;</td>
+<td>string</td>
+</tr>
+<tr>
+<td>currentWeather</td>
+<td>&#x5F53;&#x524D;&#x6C14;&#x6E29;</td>
+<td>string</td>
+</tr>
+<tr>
+<td>description</td>
+<td>&#x5F53;&#x524D;&#x5929;&#x6C14;&#x63CF;&#x8FF0;</td>
+<td>string</td>
+</tr>
+<tr>
+<td>highTemperature</td>
+<td>&#x5305;&#x542B;&#x5BF9;&#x6A21;&#x7248;&#x8FDB;&#x884C;&#x63CF;&#x8FF0;&#x7684;&#x591A;&#x9879;Key/Value&#x503C;</td>
+<td>object</td>
+</tr>
+<tr>
+<td>hightemperature.value</td>
+<td>&#x5F53;&#x524D;&#x6700;&#x9AD8;&#x6C14;&#x6E29;</td>
+<td>string</td>
+</tr>
+<tr>
+<td>lowTemperature</td>
+<td>&#x5305;&#x542B;&#x5BF9;&#x6A21;&#x7248;&#x8FDB;&#x884C;&#x63CF;&#x8FF0;&#x7684;&#x591A;&#x9879;Key/Value&#x503C;</td>
+<td>object</td>
+</tr>
+<tr>
+<td>lowTemperature.value</td>
+<td>&#x5F53;&#x524D;&#x6700;&#x4F4E;&#x6C14;&#x6E29;</td>
+<td>string</td>
+</tr>
+<tr>
+<td>weatherForecast</td>
+<td>&#x672A;&#x6765;N&#x5929;&#x7684;&#x5929;&#x6C14;&#x9884;&#x62A5;</td>
+<td>list</td>
+</tr>
+<tr>
+<td>weatherForecast.date</td>
+<td>&#x9884;&#x62A5;&#x65E5;&#x671F;&#xFF0C;&#x683C;&#x5F0F;&#x4E3A;ABBR_MONTH_DAY&#xFF0C;&#x4F8B;&#x5982;&quot;Nov 22&quot;</td>
+<td>string</td>
+</tr>
+<tr>
+<td>weatherForecast.highTemperature</td>
+<td>&#x6700;&#x9AD8;&#x6C14;&#x6E29;</td>
+<td>string</td>
+</tr>
+<tr>
+<td>weatherForecast.lowTemperature</td>
+<td>&#x6700;&#x4F4E;&#x6C14;&#x6E29;</td>
+<td>string</td>
+</tr>
+</tbody>
+</table>
+<h1 id="renderplayerinfo-directive">RenderPlayerInfo Directive</h1>
+<h2 id="&#x4E3E;&#x4F8B;">&#x4E3E;&#x4F8B;</h2>
+<p><strong>&#x6D88;&#x606F;&#x4F53; Sample Message</strong></p>
+<pre><code class="lang-json">{
+  <span class="hljs-string">&quot;directive&quot;</span> : {
+    <span class="hljs-string">&quot;header&quot;</span> : {
+      <span class="hljs-string">&quot;namespace&quot;</span> : <span class="hljs-string">&quot;TemplateRuntime&quot;</span>,
+      <span class="hljs-string">&quot;name&quot;</span> : <span class="hljs-string">&quot;RenderPlayerInfo&quot;</span>,
+      <span class="hljs-string">&quot;messageId&quot;</span> : <span class="hljs-string">&quot;5049d7a5-44c1-4bf7-b17b-1107f2ba9ae6&quot;</span>,
+      <span class="hljs-string">&quot;dialogRequestId&quot;</span> : <span class="hljs-string">&quot;c8da5b2b-672f-452a-8e83-b5f4192c4f67&quot;</span>
+    },
+    <span class="hljs-string">&quot;payload&quot;</span> : {
+      <span class="hljs-string">&quot;audioItemId&quot;</span> : <span class="hljs-string">&quot;xiaoai:7773234311568433024&quot;</span>,
+      <span class="hljs-string">&quot;content&quot;</span> : {
+        <span class="hljs-string">&quot;title&quot;</span> : <span class="hljs-string">&quot;&#x6807;&#x9898;&quot;</span>,
+        <span class="hljs-string">&quot;titleSubtext1&quot;</span> : <span class="hljs-string">&quot;&#x526F;&#x6807;&#x9898;&quot;</span>,
+        <span class="hljs-string">&quot;header&quot;</span> : <span class="hljs-string">&quot;&#x4E09;&#x7EA7;&#x6807;&#x9898;&quot;</span>,
+        <span class="hljs-string">&quot;mediaLengthInMilliseconds&quot;</span> : <span class="hljs-number">1324414</span>,
+        <span class="hljs-string">&quot;art&quot;</span> : {
+          <span class="hljs-string">&quot;sources&quot;</span> : [ {
+            <span class="hljs-string">&quot;url&quot;</span> : <span class="hljs-string">&quot;http://image-url&quot;</span>,
+            <span class="hljs-string">&quot;widthPixels&quot;</span> : <span class="hljs-number">300</span>,
+            <span class="hljs-string">&quot;heightPixels&quot;</span> : <span class="hljs-number">300</span>
+          } ]
+        },
+        <span class="hljs-string">&quot;provider&quot;</span> : {
+          <span class="hljs-string">&quot;name&quot;</span> : <span class="hljs-string">&quot;xiaoai&quot;</span>
+        }
+      },
+      <span class="hljs-string">&quot;controls&quot;</span> : [ {
+        <span class="hljs-string">&quot;type&quot;</span> : <span class="hljs-string">&quot;BUTTON&quot;</span>,
+        <span class="hljs-string">&quot;name&quot;</span> : <span class="hljs-string">&quot;NEXT&quot;</span>,
+        <span class="hljs-string">&quot;enabled&quot;</span> : <span class="hljs-literal">true</span>,
+        <span class="hljs-string">&quot;selected&quot;</span> : <span class="hljs-literal">false</span>
+      }, {
+        <span class="hljs-string">&quot;type&quot;</span> : <span class="hljs-string">&quot;BUTTON&quot;</span>,
+        <span class="hljs-string">&quot;name&quot;</span> : <span class="hljs-string">&quot;PREVIOUS&quot;</span>,
+        <span class="hljs-string">&quot;enabled&quot;</span> : <span class="hljs-literal">true</span>,
+        <span class="hljs-string">&quot;selected&quot;</span> : <span class="hljs-literal">false</span>
+      }, {
+        <span class="hljs-string">&quot;type&quot;</span> : <span class="hljs-string">&quot;BUTTON&quot;</span>,
+        <span class="hljs-string">&quot;name&quot;</span> : <span class="hljs-string">&quot;PLAY_PAUSE&quot;</span>,
+        <span class="hljs-string">&quot;enabled&quot;</span> : <span class="hljs-literal">true</span>,
+        <span class="hljs-string">&quot;selected&quot;</span> : <span class="hljs-literal">false</span>
+      } ]
+    }
+  }
+}
+</code></pre>
+<p><strong>&#x53C2;&#x6570;&#x63CF;&#x8FF0;</strong></p>
+<table>
+<thead>
+<tr>
+<th>&#x53C2;&#x6570;&#x540D;</th>
+<th>&#x8BF4;&#x660E;</th>
+<th>&#x6570;&#x636E;&#x7C7B;&#x578B;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>messageId</td>
+<td>&#x7528;&#x4E8E;&#x8868;&#x793A;&#x7279;&#x5B9A;&#x6D88;&#x606F;&#x7684;&#x552F;&#x4E00;ID</td>
+<td>string</td>
+</tr>
+<tr>
+<td>dialogRequestId</td>
+<td>&#x4E0E;&#x4E0B;&#x53D1;&#x6307;&#x4EE4;&#x76F8;&#x5173;&#x8054;&#x7684;&#x552F;&#x4E00;ID</td>
+<td>string</td>
+</tr>
+<tr>
+<td>audioItemId</td>
+<td>&#x8868;&#x793A;&#x5F53;&#x524D;&#x6A21;&#x7248;&#x7684;&#x6807;&#x8BC6;</td>
+<td>string</td>
+</tr>
+<tr>
+<td>content</td>
+<td>&#x5305;&#x542B;&#x5BF9;&#x6A21;&#x7248;&#x8FDB;&#x884C;&#x63CF;&#x8FF0;&#x7684;&#x591A;&#x9879;Key/Value&#x503C;</td>
+<td>object</td>
+</tr>
+<tr>
+<td>content.title</td>
+<td>&#x6807;&#x9898;</td>
+<td>string</td>
+</tr>
+<tr>
+<td>content.titleSubtext1</td>
+<td>&#x526F;&#x6807;&#x9898;</td>
+<td>string</td>
+</tr>
+<tr>
+<td>content.header</td>
+<td>&#x4E09;&#x7EA7;&#x6807;&#x9898;</td>
+<td>string</td>
+</tr>
+<tr>
+<td>content.mediaLengthInMilliseconds</td>
+<td>&#x97F3;&#x9891;&#x6D41;&#x7684;&#x957F;&#x5EA6;</td>
+<td>string</td>
+</tr>
+<tr>
+<td>content.art</td>
+<td>&#x8BE5;&#x6A21;&#x7248;&#x5305;&#x542B;&#x7684;&#x56FE;&#x7247;</td>
+<td><a href="#Image%20Structure">image structure</a></td>
+</tr>
+<tr>
+<td>content.provider</td>
+<td>&#x5185;&#x5BB9;&#x63D0;&#x4F9B;&#x5546;</td>
+<td>object</td>
+</tr>
+<tr>
+<td>content.provider.name</td>
+<td>&#x5185;&#x5BB9;&#x63D0;&#x4F9B;&#x5546;&#x540D;&#x79F0;</td>
+<td>string</td>
+</tr>
+<tr>
+<td>controls</td>
+<td>&#x5C4F;&#x5E55;&#x4E0A;&#x663E;&#x793A;&#x7684;&#x63A7;&#x5236;&#x6309;&#x94AE;</td>
+<td>list</td>
+</tr>
+<tr>
+<td>controls.type</td>
+<td>&#x6309;&#x94AE;&#x7C7B;&#x578B;&#xFF0C;&#x5305;&#x62EC;&#xFF1A;BUTTON&#xFF0C;TOGGLE</td>
+<td>string</td>
+</tr>
+<tr>
+<td>controls.name</td>
+<td>&#x6309;&#x94AE;&#x540D;&#x79F0;&#xFF0C;&#x5305;&#x62EC;&#xFF1A;PLAY_PAUSE, NEXT, PREVIOUS, SKIP_FORWARD, SKIP_BACKWARD, SHUFFLE, LOOP, THUMBS_UP, THUMBS_DOWN</td>
+<td>string</td>
+</tr>
+<tr>
+<td>controls.enabled</td>
+<td>&#x6309;&#x94AE;&#x662F;&#x5426;&#x53EF;&#x4EE5;&#x70B9;&#x51FB;</td>
+<td>boolean</td>
+</tr>
+<tr>
+<td>controls.selected</td>
+<td>&#x6309;&#x94AE;&#x662F;&#x5426;&#x88AB;&#x9009;&#x4E2D;</td>
+<td>boolean</td>
+</tr>
+</tbody>
+</table>
+<h1 id="image-structure">Image Structure</h1>
+<h2 id="&#x4E3E;&#x4F8B;">&#x4E3E;&#x4F8B;</h2>
+<p><strong>&#x683C;&#x5F0F;</strong></p>
+<pre><code class="lang-json">    {
+        <span class="hljs-string">&quot;sources&quot;</span> : [ {
+          <span class="hljs-string">&quot;url&quot;</span> : <span class="hljs-string">&quot;http://image-url&quot;</span>,
+          <span class="hljs-string">&quot;widthPixels&quot;</span> : <span class="hljs-number">300</span>,
+          <span class="hljs-string">&quot;heightPixels&quot;</span> : <span class="hljs-number">300</span>
+        } ]
+    }
+</code></pre>
+<p><strong>&#x53C2;&#x6570;&#x63CF;&#x8FF0;</strong></p>
+<table>
+<thead>
+<tr>
+<th>&#x53C2;&#x6570;&#x540D;</th>
+<th>&#x8BF4;&#x660E;</th>
+<th>&#x6570;&#x636E;&#x7C7B;&#x578B;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>sources</td>
+<td>&#x56FE;&#x7247;&#x5217;&#x8868;</td>
+<td>list</td>
+</tr>
+<tr>
+<td>sources[i].url</td>
+<td>&#x4E0E;&#x4E0B;&#x53D1;&#x6307;&#x4EE4;&#x76F8;&#x5173;&#x8054;&#x7684;&#x552F;&#x4E00;ID</td>
+<td>string</td>
+</tr>
+<tr>
+<td>sources[i].widthPixels</td>
+<td>&#x56FE;&#x7247;&#x5BBD;&#x5EA6;&#xFF0C;&#x5355;&#x4F4D;&#x662F;&#x50CF;&#x7D20;&#x3002;&#x8BE5;&#x53C2;&#x6570;&#x7531;&#x5185;&#x5BB9;&#x63D0;&#x4F9B;&#x5546;&#x51B3;&#x5B9A;&#xFF0C;&#x53EF;&#x80FD;&#x4F1A;&#x4E3A;&#x7A7A;</td>
+<td>string</td>
+</tr>
+<tr>
+<td>sources[i].heightPixels</td>
+<td>&#x56FE;&#x7247;&#x9AD8;&#x5EA6;&#xFF0C;&#x5355;&#x4F4D;&#x662F;&#x50CF;&#x7D20;&#x3002;&#x8BE5;&#x53C2;&#x6570;&#x7531;&#x5185;&#x5BB9;&#x63D0;&#x4F9B;&#x5546;&#x51B3;&#x5B9A;&#xFF0C;&#x53EF;&#x80FD;&#x4F1A;&#x4E3A;&#x7A7A;</td>
+<td>object</td>
+</tr>
+</tbody>
+</table>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="4.AudioPlayer_Interface.html" class="navigation navigation-prev " aria-label="Previous page: AudioPlayer">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../Version.html" class="navigation navigation-next " aria-label="Next page: 版本">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"TemplateRuntime","level":"1.5.5","depth":2,"next":{"title":"版本","level":"1.6","depth":1,"path":"Version.md","ref":"Version.md","articles":[]},"previous":{"title":"AudioPlayer","level":"1.5.4","depth":2,"path":"api/4.AudioPlayer_Interface.md","ref":"api/4.AudioPlayer_Interface.md","articles":[]},"dir":"ltr"},"config":{"plugins":["livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"XiaoMi","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"小爱同学AIVS2.0文档","gitbook":"*"},"file":{"path":"api/5.TemplateRuntime_Interface.md","mtime":"2018-11-30T11:42:44.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-12-03T07:20:44.190Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
