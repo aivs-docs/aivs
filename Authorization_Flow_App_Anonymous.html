@@ -1,0 +1,657 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>应用匿名授权流程 · 小爱同学AIVS文档</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="XiaoMi">
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="styles/website.css">
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="Authorization_logout.html" />
+    
+    
+    <link rel="prev" href="Authorization_Flow.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="Authorization.html">
+            
+                <a href="Authorization.html">
+            
+                    
+                    账号接入
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="Authorization_Flow.html">
+            
+                <a href="Authorization_Flow.html">
+            
+                    
+                    设备OAuth授权流程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.2" data-path="Authorization_Flow_App_Anonymous.html">
+            
+                <a href="Authorization_Flow_App_Anonymous.html">
+            
+                    
+                    应用匿名授权流程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="Authorization_logout.html">
+            
+                <a href="Authorization_logout.html">
+            
+                    
+                    取消授权
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    传输协议
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="Base_Protocol.html">
+            
+                <a href="Base_Protocol.html">
+            
+                    
+                    基础协议
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="Interaction_Model.html">
+            
+                <a href="Interaction_Model.html">
+            
+                    
+                    交互模型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="Authentication.html">
+            
+                <a href="Authentication.html">
+            
+                    
+                    消息鉴权
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="Endpoints.html">
+            
+                <a href="Endpoints.html">
+            
+                    
+                    端点
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="Interfaces.html">
+            
+                <a href="Interfaces.html">
+            
+                    
+                    接口列表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                    接口文档
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="api/1.SpeechRecognizer_Interface.html">
+            
+                <a href="api/1.SpeechRecognizer_Interface.html">
+            
+                    
+                    SpeechRecognizer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="api/2.SpeechSynthesizer_Interface.html">
+            
+                <a href="api/2.SpeechSynthesizer_Interface.html">
+            
+                    
+                    SpeechSynthesizer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="api/3.TextRecognizer_Interface.html">
+            
+                <a href="api/3.TextRecognizer_Interface.html">
+            
+                    
+                    TextRecognizer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="api/4.AudioPlayer_Interface.html">
+            
+                <a href="api/4.AudioPlayer_Interface.html">
+            
+                    
+                    AudioPlayer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5" data-path="api/5.TemplateRuntime_Interface.html">
+            
+                <a href="api/5.TemplateRuntime_Interface.html">
+            
+                    
+                    TemplateRuntime
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="Version.html">
+            
+                <a href="Version.html">
+            
+                    
+                    版本
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" >
+            
+                <span>
+            
+                    
+                    样例
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="demo/Play_News.html">
+            
+                <a href="demo/Play_News.html">
+            
+                    
+                    交互1：播放一组新闻
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="demo/Control_MIOT.html">
+            
+                <a href="demo/Control_MIOT.html">
+            
+                    
+                    交互2：控制智能家居
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3" data-path="demo/Weather_Predict.html">
+            
+                <a href="demo/Weather_Predict.html">
+            
+                    
+                    交互3：查询天气
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="Demo.html">
+            
+                <a href="Demo.html">
+            
+                    
+                    Demo
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="FAQ.html">
+            
+                <a href="FAQ.html">
+            
+                    
+                    FAQ
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >应用匿名授权流程</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#&#x5E94;&#x7528;&#x533F;&#x540D;&#x6388;&#x6743;&#x63A5;&#x5165;"><b></b>&#x5E94;&#x7528;&#x533F;&#x540D;&#x6388;&#x6743;&#x63A5;&#x5165;</a></li><ul><li><span class="title-icon "></span><a href="#&#x542F;&#x7528;&#x5E94;&#x7528;&#x533F;&#x540D;&#x65B9;&#x5F0F;&#x63A5;&#x5165;"><b></b>&#x542F;&#x7528;&#x5E94;&#x7528;&#x533F;&#x540D;&#x65B9;&#x5F0F;&#x63A5;&#x5165;</a></li><li><span class="title-icon "></span><a href="#&#x6388;&#x6743;&#x6D41;&#x7A0B;"><b></b>&#x6388;&#x6743;&#x6D41;&#x7A0B;</a></li><ul><li><span class="title-icon "></span><a href="#&#x7533;&#x8BF7;&#x4EE4;&#x724C;&#x63A5;&#x53E3;"><b></b>&#x7533;&#x8BF7;&#x4EE4;&#x724C;&#x63A5;&#x53E3;</a></li></ul></ul></ul></div><a href="#&#x5E94;&#x7528;&#x533F;&#x540D;&#x6388;&#x6743;&#x63A5;&#x5165;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="&#x5E94;&#x7528;&#x533F;&#x540D;&#x6388;&#x6743;&#x63A5;&#x5165;"><a name="&#x5E94;&#x7528;&#x533F;&#x540D;&#x6388;&#x6743;&#x63A5;&#x5165;" class="anchor-navigation-ex-anchor" href="#&#x5E94;&#x7528;&#x533F;&#x540D;&#x6388;&#x6743;&#x63A5;&#x5165;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5E94;&#x7528;&#x533F;&#x540D;&#x6388;&#x6743;&#x63A5;&#x5165;</h1>
+<p>&#x5982;&#x679C;&#x7528;&#x6237;&#x6CA1;&#x6709;&#x5C0F;&#x7C73;&#x8D26;&#x53F7;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x5E94;&#x7528;&#x533F;&#x540D;&#x7684;&#x65B9;&#x5F0F;&#x4F7F;&#x7528;Xiao AI Voice Service &#x670D;&#x52A1;&#x3002;&#x672C;&#x6587;&#x63CF;&#x8FF0;&#x5982;&#x4F55;&#x542F;&#x7528;&#x5E94;&#x7528;&#x533F;&#x540D;&#x65B9;&#x5F0F;&#x63A5;&#x5165;,&#x4EE5;&#x53CA;&#x5178;&#x578B;&#x7684;&#x6388;&#x6743;&#x6D41;&#x7A0B;&#x3002;</p>
+<h2 id="&#x542F;&#x7528;&#x5E94;&#x7528;&#x533F;&#x540D;&#x65B9;&#x5F0F;&#x63A5;&#x5165;"><a name="&#x542F;&#x7528;&#x5E94;&#x7528;&#x533F;&#x540D;&#x65B9;&#x5F0F;&#x63A5;&#x5165;" class="anchor-navigation-ex-anchor" href="#&#x542F;&#x7528;&#x5E94;&#x7528;&#x533F;&#x540D;&#x65B9;&#x5F0F;&#x63A5;&#x5165;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x542F;&#x7528;&#x5E94;&#x7528;&#x533F;&#x540D;&#x65B9;&#x5F0F;&#x63A5;&#x5165;</h2>
+<p>&#x542F;&#x7528;&#x5E94;&#x7528;&#x533F;&#x540D;&#x65B9;&#x5F0F;&#x63A5;&#x5165;&#x524D;&#xFF0C;&#x8BF7;&#x786E;&#x8BA4;&#x60A8;&#x5DF2;&#x63A5;&#x5165;&#x5C0F;&#x7C73;&#x8D26;&#x53F7;&#x3002;&#x66A8;&#xFF1A;</p>
+<ol>
+<li>&#x5728;<strong>&#x5C0F;&#x7231;&#x5F00;&#x653E;&#x5E73;&#x53F0;</strong>&#x6210;&#x529F;&#x6CE8;&#x518C;<strong>&#x4F01;&#x4E1A;&#x8D26;&#x53F7;</strong>&#x3002;</li>
+<li>&#x5DF2;&#x7ECF;&#x6210;&#x529F;&#x521B;&#x5EFA;<strong>&#x5E94;&#x7528;&#x7A0B;&#x5E8F;</strong>&#x3002;</li>
+</ol>
+<p>&#x542F;&#x7528;&#x5E94;&#x7528;&#x533F;&#x540D;&#x65B9;&#x5F0F;&#x63A5;&#x5165;&#x9700;&#x8981;&#x4F5C;&#x5982;&#x4E0B;&#x64CD;&#x4F5C;&#xFF1A;</p>
+<ol>
+<li>&#x5728;&#x5E94;&#x7528;&#x7684;<strong>&#x5B89;&#x5168;&#x914D;&#x7F6E;</strong>&#x4E2D;&#x7684;&#x7684;<strong>&#x56DE;&#x8C03;&#x5730;&#x5740;</strong>&#x3002;&#x914D;&#x7F6E;<strong>API Key</strong>&#x3002;&#x6CE8;&#x610F;&#x586B;&#x5199;&#x7684;<strong>MD5</strong>&#x548C;<strong>SHA256</strong>&#x5B57;&#x6BB5;&#x90FD;&#x8981;&#x6709;<strong>&#x5192;&#x53F7;</strong>&#x5206;&#x9694;&#x3002;
+<img src="apiKey1.jpeg" alt=""> 
+<img src="apiKey2.jpeg" alt=""> </li>
+</ol>
+<p>&#x914D;&#x7F6E;&#x6210;&#x529F;&#x540E;&#x5C0F;&#x7231;&#x5F00;&#x653E;&#x5E73;&#x53F0;&#x4F1A;&#x5206;&#x914D;<strong>API Key</strong></p>
+<h2 id="&#x6388;&#x6743;&#x6D41;&#x7A0B;"><a name="&#x6388;&#x6743;&#x6D41;&#x7A0B;" class="anchor-navigation-ex-anchor" href="#&#x6388;&#x6743;&#x6D41;&#x7A0B;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x6388;&#x6743;&#x6D41;&#x7A0B;</h2>
+<p><img src="Authorization_Flow_App_Anonymous.jpg" alt="&#x6388;&#x6743;&#x6D41;&#x7A0B;&#x56FE;"> </p>
+<ol>
+<li>&#x7528;&#x6237;&#x542F;&#x52A8;&#x8F66;&#x8F86;&#x3002;</li>
+<li>&#x8F66;&#x8F86;&#x8FDE;&#x63A5;&#x8F66;&#x5382;&#x540E;&#x53F0;&#x670D;&#x52A1;&#xFF0C;&#x901A;&#x77E5;&#x8F66;&#x8F86;&#x542F;&#x52A8;&#x3002;&#x9700;&#x8981;&#x643A;&#x5E26;&#x8F66;&#x8F86;&#x8BBE;&#x5907;Id&#x3002;</li>
+<li>&#x8F66;&#x5382;&#x540E;&#x53F0;&#x670D;&#x52A1;&#x5411;&#x5C0F;&#x7231;&#x8D26;&#x53F7;&#x670D;&#x52A1;&#x7533;&#x8BF7;&#x5E94;&#x7528;&#x533F;&#x540D;&#x63A5;&#x5165;&#x4EE4;&#x724C;&#x3002;&#x8BF7;&#x6C42;&#x4E2D;&#x5E94;&#x5F53;&#x643A;&#x5E26;&#x5E94;&#x7528;<strong>Client ID</strong>&#xFF0C;&#x5E94;&#x7528;<strong>SignSecret</strong>&#xFF0C;&#x8F66;&#x8F86;<strong>device_id</strong>&#xFF0C;&#x5C0F;&#x7231;&#x5F00;&#x653E;&#x5E73;&#x53F0;&#x4E2D;&#x914D;&#x7F6E;&#x7684;<strong>MD5</strong>&#x3001;<strong>SHA256</strong>&#xFF0C;&#x5206;&#x914D;&#x7684;<strong>API Key</strong>&#xFF0C;<strong>grant_type</strong>&#x4EE5;&#x53CA;&#x4F7F;&#x7528;&#x4E0A;&#x8FF0;&#x5B57;&#x6BB5;&#x8BA1;&#x7B97;&#x51FA;&#x7684;&#x7B7E;&#x540D;&#x5B57;&#x6BB5;&#x3002;&#x8BE6;&#x89C1;&#x540E;&#x9762;&#x7533;&#x8BF7;&#x4EE4;&#x724C;&#x90E8;&#x5206;&#x3002;</li>
+<li>&#x5C0F;&#x7231;&#x8D26;&#x53F7;&#x670D;&#x52A1;&#x9A8C;&#x8BC1;&#x8BF7;&#x6C42;&#x4E2D;&#x7684;&#x4FE1;&#x606F;&#x3002;</li>
+<li>&#x5C0F;&#x7C73;&#x8D26;&#x53F7;&#x4EE4;&#x724C;&#x4E2D;&#x5FC3;&#x9A8C;&#x8BC1;&#x901A;&#x8FC7;&#x540E;&#xFF0C;&#x8FD4;&#x56DE;<strong>&#x63A5;&#x5165;&#x4EE4;&#x724C;</strong>&#x53CA;<strong>&#x5237;&#x65B0;&#x4EE4;&#x724C;</strong>&#x3002;</li>
+<li>&#x8F66;&#x5382;&#x540E;&#x53F0;&#x670D;&#x52A1;&#x5E94;&#x5F53;&#x5B9A;&#x65F6;&#x7EF4;&#x62A4;&#x63A5;&#x5165;&#x4EE4;&#x724C;&#x548C;&#x5237;&#x65B0;&#x4EE4;&#x724C;&#x3002;&#x4FDD;&#x8BC1;&#x4EE4;&#x724C;&#x6709;&#x6548;&#x3002;
+<em><font color="red">&#x6CE8;&#x610F;</font></em>&#xFF1A;&#x9664;&#x4E86;&#x8F66;&#x8F86;<strong>device_id</strong>&#xFF0C;&#x5176;&#x4ED6;&#x5E94;&#x7528;&#x76F8;&#x5173;&#x4FE1;&#x606F;&#x5E94;&#x4FDD;&#x5B58;&#x5728;&#x8F66;&#x5382;&#x540E;&#x53F0;&#x670D;&#x52A1;&#xFF0C;&#x4EE5;&#x907F;&#x514D;&#x4FE1;&#x606F;&#x6CC4;&#x9732;&#x3002;&#x8F66;&#x8F86;&#x548C;&#x8F66;&#x5382;&#x540E;&#x53F0;&#x670D;&#x52A1;&#x95F4;&#x901A;&#x4FE1;&#x7684;&#x5B89;&#x5168;&#x7531;&#x8F66;&#x5382;&#x4FDD;&#x8BC1;&#x3002;</li>
+</ol>
+<h3 id="&#x7533;&#x8BF7;&#x4EE4;&#x724C;&#x63A5;&#x53E3;"><a name="&#x7533;&#x8BF7;&#x4EE4;&#x724C;&#x63A5;&#x53E3;" class="anchor-navigation-ex-anchor" href="#&#x7533;&#x8BF7;&#x4EE4;&#x724C;&#x63A5;&#x53E3;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x7533;&#x8BF7;&#x4EE4;&#x724C;&#x63A5;&#x53E3;</h3>
+<h4 id="&#x8BF7;&#x6C42;"><a name="&#x8BF7;&#x6C42;" class="anchor-navigation-ex-anchor" href="#&#x8BF7;&#x6C42;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x8BF7;&#x6C42;</h4>
+<p><strong>Host</strong>&#xFF1A; account.ai.xiaomi.com </p>
+<p><strong>Path</strong>&#xFF1A; /anonymous/app/auth/token</p>
+<p><strong>Method</strong>&#xFF1A;POST</p>
+<p><strong>Scheme</strong>&#xFF1A;https</p>
+<p><strong>Parameters</strong>&#xFF1A;</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">&#x53C2;&#x6570;</th>
+<th style="text-align:left">&#x63CF;&#x8FF0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>grant_type</strong></td>
+<td style="text-align:left">&#x5E94;&#x5F53;&#x586B;&#x5199;&#x4E3A;<strong>app_token</strong>&#xFF0C;&#x8868;&#x660E;&#x7533;&#x8BF7;&#x5E94;&#x7528;&#x533F;&#x540D;&#x63A5;&#x5165;&#x4EE4;&#x724C;&#x3002;</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>client_id</strong></td>
+<td style="text-align:left">&#x5C0F;&#x7231;&#x5F00;&#x653E;&#x5E73;&#x53F0;&#x4E2D;&#x6CE8;&#x518C;&#x7684;&#x5E94;&#x7528;Id&#x3002;</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>api_key</strong></td>
+<td style="text-align:left">&#x52A0;&#x5BC6;&#x540E;&#x7684;&#x5C0F;&#x7231;&#x5F00;&#x653E;&#x5E73;&#x53F0;&#x4E2D;&#x5206;&#x914D;&#x7684;<strong>API Key</strong>&#x3002;&#x5177;&#x4F53;&#x7B97;&#x6CD5;&#x89C1;&#x4E0B;&#x6587;&#x3002;</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>device_id</strong></td>
+<td style="text-align:left">&#x8F66;&#x8F86;&#x8BBE;&#x5907;ID&#xFF0C;&#x5E94;&#x5F53;&#x4FDD;&#x8BC1;&#x6BCF;&#x8F86;&#x8F66;&#x552F;&#x4E00;&#x3002;</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>md5_sign</strong></td>
+<td style="text-align:left">&#x5C0F;&#x7231;&#x5F00;&#x653E;&#x5E73;&#x53F0;&#x4E2D;&#x4E3A;<strong>API Key</strong>&#x914D;&#x7F6E;&#x7684;<strong>MD5</strong>&#x3002;</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>sha256_sign</strong></td>
+<td style="text-align:left">&#x5C0F;&#x7231;&#x5F00;&#x653E;&#x5E73;&#x53F0;&#x4E2D;&#x4E3A;<strong>API Key</strong>&#x914D;&#x7F6E;&#x7684;<strong>SHA256</strong>&#x3002;</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>signature</strong></td>
+<td style="text-align:left">&#x4F7F;&#x7528;&#x4EE5;&#x4E0A;&#x5B57;&#x6BB5;&#x53CA;&#x5E94;&#x7528;<strong>SignSecret</strong>&#x5B57;&#x6BB5;&#x4EA7;&#x751F;&#x7684;&#x7B7E;&#x540D;&#x4FE1;&#x606F;&#x3002;&#x9632;&#x6B62;&#x8BF7;&#x6C42;&#x88AB;&#x4F2A;&#x9020;&#x6216;&#x7BE1;&#x6539;&#x3002;&#x5177;&#x4F53;&#x7B97;&#x6CD5;&#x89C1;&#x4E0B;&#x6587;&#x3002;</td>
+</tr>
+</tbody>
+</table>
+<p><em><font color="red">&#x6CE8;&#x610F;</font></em>&#xFF1A;&#x4EE5;&#x4E0A;&#x5B57;&#x6BB5;&#x90FD;&#x5728;HTTP&#x8BF7;&#x6C42;&#x7684;&#x53C2;&#x6570;&#x4E2D;&#x643A;&#x5E26;&#xFF0C;&#x56E0;&#x6B64;&#x6700;&#x7EC8;&#x53D1;&#x9001;&#x65F6;&#x9700;&#x8981;&#x8FDB;&#x884C;URL&#x7F16;&#x7801;&#x3002;&#x4F8B;&#x5982;&#xFF1A;
+<code>grant_type=app_token&amp;client_id=288XXXX407&amp;api_key=uM%2F4yRvaNQtv3tlpu%2FhL8fSTWhw%3D&amp;device_id=8888XXX666&amp;md5_sign=e9%3Ae1%3Afe%3Adf%3Adc%3A75%3Ac6&amp;sha256_sign=dd%3A37%3A5e%3Aac%3A49&amp;signature=471dfe0ffb26539a372400f82ab84b6906d70dab144b700d813bbdc9d63f2806d0a68</code></p>
+<h5 id="&#x53C2;&#x6570;&#x52A0;&#x5BC6;&#x7B97;&#x6CD5;"><a name="&#x53C2;&#x6570;&#x52A0;&#x5BC6;&#x7B97;&#x6CD5;" class="anchor-navigation-ex-anchor" href="#&#x53C2;&#x6570;&#x52A0;&#x5BC6;&#x7B97;&#x6CD5;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x53C2;&#x6570;&#x52A0;&#x5BC6;&#x7B97;&#x6CD5;</h5>
+<ul>
+<li><strong>API Key</strong>&#xFF1A;&#x5C0F;&#x7231;&#x5F00;&#x653E;&#x5E73;&#x53F0;&#x4E2D;&#x5206;&#x914D;&#x7684;<strong>API Key</strong>&#x3002;</li>
+<li><strong>SignSecret</strong>&#xFF1A;&#x5C0F;&#x7231;&#x5F00;&#x653E;&#x5E73;&#x53F0;&#x4E2D;&#x5206;&#x914D;&#x7684;<strong>SignSecret</strong>&#x3002;</li>
+<li><strong>NONCE8</strong>&#xFF1A;&#x968F;&#x673A;8&#x5B57;&#x7B26;&#x5B57;&#x7B26;&#x4E32;&#xFF0C;&#x53D6;&#x503C;&#x57DF;&#x4E3A;abcdef1234567890&#xFF0C;&#x5373;16&#x8FDB;&#x5236;&#x6570;&#x53D6;&#x503C;&#x8303;&#x56F4;&#x3002;</li>
+<li><strong>NOISE</strong>&#xFF1A;&#x968F;&#x673A;&#x5B57;&#x7B26;&#xFF0C;&#x65E0;&#x610F;&#x4E49;&#xFF0C;&#x53D6;&#x503C;&#x57DF;&#x4E3A;abcdef1234567890&#xFF0C;&#x5373;16&#x8FDB;&#x5236;&#x6570;&#x53D6;&#x503C;&#x8303;&#x56F4;&#x3002;</li>
+<li><strong>SHA1</strong> = [SHA1(<strong>NONCE8</strong>+<strong>client_id</strong>+<strong>API Key</strong>+<strong>device_id</strong>+<strong>SignSecret</strong>):40]</li>
+<li><strong>ALDER32</strong> = [Alder32(<strong>NONCE8</strong>+<strong>device_id</strong>):8]</li>
+<li><strong>api_key</strong> = Base64(AES256-CBC(<strong>NONCE8</strong>+<strong>API Key</strong>))</li>
+<li><strong>signature</strong> = [NOISE:3]<strong>NONCE8</strong>[NOISE:5]<strong>SHA1</strong>[NOISE:2]<strong>ALDER32</strong>[NOISE:3]</li>
+</ul>
+<h4 id="&#x54CD;&#x5E94;"><a name="&#x54CD;&#x5E94;" class="anchor-navigation-ex-anchor" href="#&#x54CD;&#x5E94;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x54CD;&#x5E94;</h4>
+<p>&#x5982;&#x679C;&#x6388;&#x6743;&#x6210;&#x529F;&#xFF0C;&#x4F1A;&#x628A;&#x4EE4;&#x724C;&#x4EE5;JSON&#x7684;&#x5F62;&#x5F0F;&#x8FD4;&#x56DE;&#x3002;</p>
+<pre><code class="lang-json">{
+    <span class="hljs-string">&quot;code&quot;</span>:<span class="hljs-number">0</span>,
+    <span class="hljs-string">&quot;description&quot;</span>:<span class="hljs-string">&quot;success&quot;</span>,
+    <span class="hljs-string">&quot;result&quot;</span>:{
+        <span class="hljs-string">&quot;access_token&quot;</span>:<span class="hljs-string">&quot;5QWnvd2o5Ts.8AWyvciq88Vy5Sc9XShla80P09iu3KFek2zE2MscbJIjDrG9xYPcTNRBksS5xIECjGrEiO3Dv3KOV96Mn5ndfNw1ktyemt15l2HW2peRj03VEKe9.xl-sFfaZ5tRSRplDio2xsG5Nej9VLP5Fb5z2KEwQ6qk&quot;</span>,
+        <span class="hljs-string">&quot;refresh_token&quot;</span>:<span class="hljs-string">&quot;z_NDtaQT_uA.2vFWtbER6B5YE8M1JJN-sOf5N9DXZ7qFuZog0LKnd0kJ-FW1vDjHl_63dszAf5rZppwggJR4pKmkoTqE5iLGp_bDdtTnIcaivZcy0u4qlJb_5kO1.PTK9mXKLYI-59BbsBjhmW6BW0igWba2jRIyy4s5CJRs&quot;</span>,
+        <span class="hljs-string">&quot;expires_in&quot;</span>:<span class="hljs-number">604800</span>
+    }
+}
+</code></pre>
+<p>&#x8FD4;&#x56DE;&#x54CD;&#x5E94;&#x4E2D;&#x5305;&#x62EC;&#x63A5;&#x5165;&#x4EE4;&#x724C;&#x4EE5;&#x53CA;&#x5237;&#x65B0;&#x4EE4;&#x724C;&#x3002;&#x63A5;&#x5165;&#x4EE4;&#x724C;&#x8FC7;&#x671F;&#x524D;&#x8F66;&#x5382;&#x670D;&#x52A1;&#x7AEF;&#x5E94;&#x5F53;&#x4F7F;&#x7528;&#x5237;&#x65B0;&#x4EE4;&#x724C;&#x83B7;&#x5F97;&#x65B0;&#x7684;&#x63A5;&#x5165;&#x4EE4;&#x724C;&#x3002;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="Authorization_Flow.html" class="navigation navigation-prev " aria-label="Previous page: 设备OAuth授权流程">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="Authorization_logout.html" class="navigation navigation-next " aria-label="Next page: 取消授权">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"应用匿名授权流程","level":"1.2.2","depth":2,"next":{"title":"取消授权","level":"1.2.3","depth":2,"path":"Authorization_logout.md","ref":"Authorization_logout.md","articles":[]},"previous":{"title":"设备OAuth授权流程","level":"1.2.1","depth":2,"path":"Authorization_Flow.md","ref":"Authorization_Flow.md","articles":[]},"dir":"ltr"},"config":{"plugins":["splitter","anchor-navigation-ex","livereload"],"styles":{"website":"./styles/website.css"},"pluginsConfig":{"livereload":{},"splitter":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"anchor-navigation-ex":{"associatedWithSummary":false,"float":{"floatIcon":"fa fa-navicon","level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":false,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showGoTop":true,"showLevel":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"XiaoMi","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"小爱同学AIVS文档","gitbook":"3.2.3"},"file":{"path":"Authorization_Flow_App_Anonymous.md","mtime":"2019-02-21T08:32:46.577Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-02-21T11:39:42.261Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
