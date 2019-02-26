@@ -493,7 +493,8 @@
 <p>&#x5982;&#x679C;&#x5BA2;&#x6237;&#x7AEF;&#x4F7F;&#x7528; <strong>&#x5E94;&#x7528;&#x533F;&#x540D;</strong>&#x65B9;&#x5F0F;&#x63A5;&#x5165;,&#x9700;&#x8981;&#x5728;Http query parameters&#x4E2D;&#x643A;&#x5E26;&#x9274;&#x6743;&#x4FE1;&#x606F;&#x3002;(<strong>&#x8BBE;&#x5907;OAuth</strong>&#x65B9;&#x5F0F;&#x63A5;&#x5165;&#x4E5F;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;query parameters&#x643A;&#x5E26;&#x9274;&#x6743;&#x4FE1;&#x606F;)</p>
 <p>&#x9700;&#x8981;&#x586B;&#x5199;&#x7684;&#x53C2;&#x6570;&#x5305;&#x62EC;</p>
 <pre><code>auth_type
-</code></pre><p>&#x63A5;&#x5165;&#x65B9;&#x5F0F;&#x3002;&#x53EF;&#x9009;&#x503C;&#x5305;&#x62EC;<strong>device_oauth</strong>(&#x8BBE;&#x5907;OAuth)&#x548C;<strong>app_anonymous</strong>(&#x5E94;&#x7528;&#x533F;&#x540D;)</p>
+</code></pre><p>&#x63A5;&#x5165;&#x65B9;&#x5F0F;&#x3002;&#x53EF;&#x9009;&#x503C;&#x5305;&#x62EC;<strong>device_oauth</strong>(&#x8BBE;&#x5907;OAuth)&#x3001;<strong>app_oauth</strong>(&#x5E94;&#x7528;OAuth)&#x548C;<strong>app_anonymous</strong>(&#x5E94;&#x7528;&#x533F;&#x540D;)
+<em><font color="red">&#x6CE8;&#x610F;</font></em>&#xFF1A;&#x4E0D;&#x63A8;&#x8350;&#x4F7F;&#x7528;<strong>app_oauth</strong>&#x65B9;&#x5F0F;&#x63A5;&#x5165;&#xFF0C;&#x6B64;&#x65B9;&#x5F0F;&#x53EA;&#x4F9B;&#x6D4B;&#x8BD5;&#x4F7F;&#x7528;&#xFF0C;&#x6B63;&#x5F0F;&#x73AF;&#x5883;&#x5DF2;&#x5E9F;&#x5F03;&#x3002;</p>
 <pre><code>app_id
 </code></pre><p>&#x5E94;&#x7528;&#x6CE8;&#x518C;&#x7684;Id&#x3002;&#x9700;&#x8981;&#x548C;&#x7533;&#x8BF7;&#x6743;&#x9650;&#x65F6;&#x7684;&#x586B;&#x5199;&#x4FDD;&#x6301;&#x4E00;&#x81F4;&#x3002;</p>
 <pre><code>device_id
@@ -547,7 +548,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"消息鉴权","level":"1.3.3","depth":2,"next":{"title":"端点","level":"1.4","depth":1,"path":"Endpoints.md","ref":"Endpoints.md","articles":[]},"previous":{"title":"交互模型","level":"1.3.2","depth":2,"path":"Interaction_Model.md","ref":"Interaction_Model.md","articles":[]},"dir":"ltr"},"config":{"plugins":["splitter","anchor-navigation-ex","livereload"],"styles":{"website":"./styles/website.css"},"pluginsConfig":{"livereload":{},"splitter":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"anchor-navigation-ex":{"associatedWithSummary":false,"float":{"floatIcon":"fa fa-navicon","level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":false,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showGoTop":true,"showLevel":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"XiaoMi","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"小爱同学AIVS文档","gitbook":"3.2.3"},"file":{"path":"Authentication.md","mtime":"2019-02-21T08:32:46.572Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-02-21T11:39:42.261Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"消息鉴权","level":"1.3.3","depth":2,"next":{"title":"端点","level":"1.4","depth":1,"path":"Endpoints.md","ref":"Endpoints.md","articles":[]},"previous":{"title":"交互模型","level":"1.3.2","depth":2,"path":"Interaction_Model.md","ref":"Interaction_Model.md","articles":[]},"dir":"ltr"},"config":{"plugins":["splitter","anchor-navigation-ex"],"styles":{"website":"./styles/website.css"},"pluginsConfig":{"anchor-navigation-ex":{"associatedWithSummary":false,"float":{"floatIcon":"fa fa-navicon","level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":false,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showGoTop":true,"showLevel":false},"splitter":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"XiaoMi","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"小爱同学AIVS文档","gitbook":"3.2.3"},"file":{"path":"Authentication.md","mtime":"2019-02-26T05:58:24.485Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-02-26T06:00:38.167Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
@@ -558,10 +559,6 @@
     
         
         <script src="gitbook/gitbook-plugin-splitter/splitter.js"></script>
-        
-    
-        
-        <script src="gitbook/gitbook-plugin-livereload/plugin.js"></script>
         
     
         
